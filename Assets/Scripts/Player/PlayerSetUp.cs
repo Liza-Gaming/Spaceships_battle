@@ -8,8 +8,8 @@ public class PlayerSetUp : MonoBehaviour
 {
     PhotonView view;
     [SerializeField] private GameObject laserPrefab;
-    [SerializeField][Tooltip("Control the player with defined keyboard buttons")] public InputAction PlayerControls;
-    [SerializeField][Tooltip("Movement speed in meters per second")] private float _speed = 5f;
+    [SerializeField] [Tooltip("Control the player with defined keyboard buttons")] public InputAction PlayerControls;
+    [SerializeField] [Tooltip("Movement speed in meters per second")] private float _speed = 5f;
 
     Vector2 moveDir = Vector2.zero;
 

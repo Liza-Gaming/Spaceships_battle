@@ -42,7 +42,6 @@ public class MeteorSpawner : MonoBehaviour
     // Coroutine that handles the actual spawning of meteors.
     private IEnumerator SpawnMeteorRain()
     {
-        
         for (int i = 0; i < meteorsPerInterval; i++)
         {
             int rand = Random.Range(0, meteorPrefabs.Length);
